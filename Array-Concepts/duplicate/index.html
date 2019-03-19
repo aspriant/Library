@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--<title>JS Array Duplicate</title>-->
+<title>Test</title>
+</head>
+
+<body>
+<div id="info"></div>
+</body>
+<script>
+//Normal Method
+var arrayWithDuplicates = ["veeva", "IVA", "FTE", "RTE", "IVA"];
+function removeDupliate(arr){
+    var uniqueArray = [];
+    for(i = 0; i<arr.length; i++){
+        if(uniqueArray.indexOf(arr[i]) == -1){
+            uniqueArray.push(arr[i]);
+        }
+        
+    }
+    return uniqueArray;
+}
+console.log(removeDupliate(arrayWithDuplicates));
+//ES 6 Set Method
+var distinctArray = new Set(arrayWithDuplicates);
+console.log(distinctArray);
+</script>
+</html>
