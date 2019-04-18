@@ -1,0 +1,346 @@
+jsonCallback(
+{
+    "continents": 
+	{
+        "Africa":
+		{
+			"countries":
+			{
+				"Egypt": 
+				{
+					"regions": 	["Cairo"]
+				},
+				
+				"Kenya":
+				{
+					"regions":	["Nairobi"]
+				},
+				
+				"Mauritius":
+				{
+					"regions":  []
+				},
+				
+				"South Africa":
+				{
+					"regions":	["Johannesburg"]
+				}
+				
+			}
+		},
+		
+        "Asia":
+		{
+			"countries": 
+			{
+				"Cambodia": 
+				{
+					"regions": 	["Phnom Penh"]
+				},
+				
+				"China": 
+				{
+					"regions": 	["Beijing","Hong Kong","Shanghai"]
+				},
+				
+				"India": 
+				{
+					"regions": 	["Bangalore","Delhi","Mumbai"]
+				},
+				
+				"Indonesia": 
+				{
+					"regions": 	["Bali"]
+				},
+				
+				"Japan": 
+				{
+					"regions": 	["Tokyo"]
+				},
+				
+				"Laos": 
+				{
+					"regions": 	[]
+				},
+				
+				"Malaysia": 
+				{
+					"regions": 	["Kuala Lumpur","Langkawi"]
+				},
+				
+				"Philippines": 
+				{
+					"regions": 	["Manila"]
+				},
+				
+				"Singapore": 
+				{
+					"regions": 	[]
+				},
+				
+				"South Korea": 
+				{
+					"regions": 	["Seoul"]
+				},
+				
+				"Sri Lanka": 
+				{
+					"regions": 	["Colombo"]
+				},
+				
+				"Taiwan": 
+				{
+					"regions": 	["Taipei"]
+				},
+				
+				"Thailand": 
+				{
+					"regions": 	["Bangkok","Chiang Mai","Hua Hin","Khao Lak","Koh Samui","Koh Yao","Krabi","Pattaya","Phuket"]
+				},
+				
+				"Vietnam": 
+				{
+					"regions": 	["Hanoi","Ho Chi Minh City"]
+				}
+			}
+		},
+		
+        "Central America":
+		{
+			"countries":
+			{
+				"El Salvador":
+				{
+					"regions":  []
+				},
+				
+				"Honduras":
+				{
+					"regions":  []
+				},
+				
+				"Nicaragua":
+				{
+					"regions":  []
+				}
+			}
+		},
+		
+        "Europe":
+		{
+			"countries":
+			{
+				"Austria":
+				{
+					"regions":  ["Salzburg","Vienna"]
+				},
+				
+				"Belgium":
+				{
+					"regions":  ["Brussels"]
+				},
+				
+				"Czech Republic":
+				{
+					"regions":  ["Prague"]
+				},
+				
+				"France":
+				{
+					"regions":  ["Paris"]
+				},
+				
+				"Germany":
+				{
+					"regions":  ["Berlin","Frankfurt","Munich"]
+				},
+				
+				"Greece":
+				{
+					"regions":  ["Athens"]
+				},
+				
+				"Hungary":
+				{
+					"regions":  ["Budapest"]
+				},
+				
+				"Ireland":
+				{
+					"regions":  ["Dublin","Cork","Donegal"]
+				},
+				
+				"Italy":
+				{
+					"regions":  ["Florence","Milan","Naples","Rome","Venice"]
+				},
+				
+				"Monaco":
+				{
+					"regions":  ["Monte Carlo"]
+				},
+				
+				"Netherlands":
+				{
+					"regions":  ["Amsterdam"]
+				},
+				
+				"Portugal":
+				{
+					"regions":  ["Lisbon"]
+				},
+				
+				"Russia":
+				{
+					"regions":  ["Moscow"]
+				},
+				
+				"Spain":
+				{
+					"regions":  ["Barcelona","Madrid"]
+				},
+				
+				"Sweden":
+				{
+					"regions":  ["Stockholm"]
+				},
+				
+				"Switzerland":
+				{
+					"regions":  ["Geneva","Lucerne","Zurich"]
+				},
+				
+				"Turkey":
+				{
+					"regions":  ["Istanbul"]
+				},
+				
+				"United Kingdom":
+				{
+					"regions":  ["London","Manchester","Belfast","Northern Ireland","Edinburgh","Glasgow","Scotland"]
+				},
+				
+				"Vatican City":
+				{
+					"regions":  ["Vatican City"]
+				}
+			}
+		},
+		
+        "Middle East":
+		{
+			"countries":
+			{
+				"Austria":
+				{
+					"regions":  ["Salzburg","Vienna"]
+				},
+				
+				"Bahrain":
+				{
+					"regions":  []
+				},
+				
+				"Iraq":
+				{
+					"regions":  []
+				},
+				
+				"Israel":
+				{
+					"regions":  ["Jerusalem","Tel Aviv"]
+				},
+				
+				"Jordon":
+				{
+					"regions":  ["Amman"]
+				},
+				
+				"Kuwait":
+				{
+					"regions":  []
+				},
+				
+				"Saudi Arabia":
+				{
+					"regions":  []
+				},
+				
+				"United Arab Emirates":
+				{
+					"regions":  ["Abu Dhabi","Dubai"]
+				}
+			}
+		},
+		
+        "North America":
+		{
+			"countries":
+			{
+				"Canada":
+				{
+					"regions":  ["Calgary","Vancouver","Toronto","Ontario","Montreal","Quebec","Yukon"]
+				},
+				
+				"Mexico":
+				{
+					"regions":  ["Mexico City"]
+				},
+				
+				"United States":
+				{
+					"regions":  ["Anchorage","Alaska","American Samoa","Arizona","Arkansas","Anaheim","Los Angeles","San Diego","San Francisco","Connecticut","Delaware","Miami","Orlando","Georgia, US","Honolulu","Hawaii","Boston","Las Vegas","Nevada","New York","Memphis","Seattle","Washington"]
+				}
+			}
+		},
+		
+        "Oceania and Australia":
+		{
+			"countries":
+			{
+				"Australia":
+				{
+					"regions":  ["Sydney","Gold Coast","Sunshine Coast","Melbourne","Tasmania","Brisbane","Cairns","Adelaide","Canberra","New South Wales","Alice Springs","Ayers Rock","Darwin","Townsville","Palm Cove","Port Douglas","Tropical North Queensland","Whitsunday Islands","South Australia","Hobart","Tasmania","Victoria","Perth"]
+				},
+				
+				"New Zealand":
+				{
+					"regions":  ["Auckland","Christchurch","Dunedin","Queenstown","Wellington","Bay of Islands","Bay of Plenty","Coromandel","Hawke's Bay","Northland","Rotorua","Taranaki","Taupo","Waikato","Fiordland","Kaikoura","Marlborough","Nelson","Wanaka"]
+				},
+				
+				"South Pacific":
+				{
+					"regions":  ["Cook Islands","Fiji","New Caledonia","Norfolk Island","Samoa","Tahiti","Tonga","Vanuatu","Niue Is"]
+				}
+			}
+		},
+		
+        "South America":
+		{
+			"countries":
+			{
+				"Argentina":
+				{
+					"regions":  ["Buenos Aires"]
+				},
+				
+				"Brazil":
+				{
+					"regions":  ["Rio de Janeiro","Sao Paulo"]
+				},
+				
+				"Chile":
+				{
+					"regions":  ["Santiago"]
+				},
+				
+				"Peru":
+				{
+					"regions":  ["Lima"]
+				}
+			}		
+		}
+		
+    }
+}
+);

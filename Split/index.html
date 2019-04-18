@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Slide 8-00 - SLR y SG estadios IV segun AJCCv7</title>
+	</head>
+
+	<body>
+	    <div id="id01"></div>
+        <script>
+            var str = "Welcome to my home";
+            var myStr = "Welcome+to+my+home";
+            console.log(str);
+            var seperate = myStr.split(/[\\\+]/);
+            console.log(seperate);
+//            function splitIndex(value, index) {
+//                return value.substring(0, index) + "," + value.substring(index);
+//            }
+//
+//            var result = splitIndex("3362174", 3);
+//
+//            console.log(result);
+            var fullData = '{"fname" : "Suresh", "Lname" : "R", "Hobbies" : "Chess, Carom, Drawing"}';
+            var data = JSON.parse(fullData);
+            var getHobbies = data.Hobbies;
+            var getHobbiesArray = getHobbies.split(",");
+            console.log(getHobbies);
+            
+            var myData = "raceCar";
+            palindrome(myData);
+            function palindrome(myData){
+//                var myOutput = myData.toLowerCase();
+                var myOutput = myData.toUpperCase();
+                console.log("Value : " + myOutput);
+                var toOutput = myOutput.split("").reverse().join("");
+                if(myOutput === toOutput){
+                    console.log("Is Palindrome");
+                }
+                else {
+                    console.log("Not Palindrome");
+                }
+                
+            }
+        </script>
+	</body>
+</html>
